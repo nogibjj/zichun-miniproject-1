@@ -30,6 +30,8 @@ jobs:
         pylint src/main.py
 
     - name: Run tests
+      env:
+	PYTHONPATH: ./src
       run: |
         pytest tests
 
