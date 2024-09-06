@@ -3,6 +3,12 @@
 
 This is a Python project template with a functioning `Makefile`, a `.devcontainer`, and basic setup for CI/CD using GitHub Actions. The project also includes unit tests and linting with `pylint`.
 
+## Links
+
+- **Version control Source Code Management Repository**: [github repo](https://github.com/nogibjj/zichun-miniproject-1).
+- **Link to successful CI/CD run**: [Link to GitHub Actions](https://github.com/nogibjj/zichun-miniproject-1/actions).
+
+
 ## Project Setup
 
 ### 1. Clone the Repository
@@ -61,3 +67,12 @@ This project uses GitHub Actions for Continuous Integration (CI). The workflow i
 ## Development Environment with Devcontainer
 
 A development container is included to ensure consistency in development environments. The `.devcontainer` folder contains a `Dockerfile` and `devcontainer.json` file for setting up the containerized development environment in tools like Visual Studio Code.
+
+## Deliverables
+
+- **Version control Source Code Management Repository**: [Submit the repository URL] (Please make sure it is public under repository settings at the bottom in red).
+- **Link to successful CI/CD run**: [Link to GitHub Actions](https://github.com/your-username/zichun-miniproject-1/actions)
+
+## Contributing
+
+Feel free to fork the repository and submit pull requests for improvements.
