@@ -10,28 +10,27 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
 
-    - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
 
-    - name: Lint with pylint
-      run: |
-        pylint src/main.py
+      - name: Lint with pylint
+        run: |
+          pylint src/main.py
 
-    - name: Run tests
-      env:
-	PYTHONPATH: ./src
-      run: |
-        pytest tests
+      - name: Run tests
+        env:
+          PYTHONPATH: ./src  # Add src to PYTHONPATH
+        run: |
+          pytest tests
 
