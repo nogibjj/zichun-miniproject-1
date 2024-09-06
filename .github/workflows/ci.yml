@@ -30,7 +30,7 @@ jobs:
 
       - name: Run tests
         env:
-          PYTHONPATH: ./src  # Add src to PYTHONPATH
+          PYTHONPATH: ${{ github.workspace }}/src  # Set PYTHONPATH to include src
         run: |
           pytest tests
 
