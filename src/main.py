@@ -1,3 +1,4 @@
+
 """
 This module contains a simple add function and a main function for demonstration.
 """
@@ -12,4 +13,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
+
